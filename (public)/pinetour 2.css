@@ -1,0 +1,445 @@
+   .body {
+       width: 1440px;
+       margin: auto;
+       font-family: Montserrat;
+   }
+
+   .head {
+       background-color: black;
+       display: flex;
+       justify-content: center;
+       padding: 8px, 0px, 8px, 0px;
+       width: 1440px;
+       height: 80px;
+       margin: auto;
+   }
+
+   .body {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       gap: 200px;
+   }
+
+   .full-section-container {
+       width: 1200px;
+       margin: auto;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       gap: 200px;
+
+   }
+
+   .first {
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       gap: 80px;
+   }
+
+   .pagename {
+       text-align: center;
+
+   }
+
+   .pagename>h1 {
+       font-size: 72px;
+       font-weight: 700;
+   }
+
+   .pagename>h4 {
+       font-size: 24px;
+       font-weight: 700;
+       color: dimgray;
+   }
+
+   .golzurag {
+       display: flex;
+       justify-content: space-between;
+       gap: 21px;
+   }
+
+   .destination-container {
+       display: flex;
+       justify-content: space-between;
+       gap: 150px;
+       width: 1200px;
+   }
+
+   .text-heseg {
+       display: flex;
+       flex-direction: column;
+       gap: 80px;
+       width: 1200px;
+       height: 845px;
+   }
+
+   .tours {
+       display: flex;
+       flex-direction: column;
+       font-family: Montserrat;
+       font-weight: 700;
+
+   }
+
+   .tours>span {
+       font-size: 48px;
+   }
+
+   .tours>p {
+       color: dimgray;
+       font-size: 24px;
+   }
+
+   .allin {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       gap: 15.8px;
+       width: 300px;
+
+   }
+
+   .d1 {
+
+       background-color: black;
+       border-radius: 40px;
+       width: 56px;
+       height: 56px;
+       padding: 10px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       gap: 16px;
+
+   }
+
+   .d1>div {
+       color: green;
+       font-size: 17px;
+       font-weight: 700;
+       line-height: 20.72px;
+       padding: 17px;
+   }
+
+
+   .d1name>h2 {
+       display: flex;
+       color: black;
+       font-size: 16px;
+       line-height: 4px;
+
+   }
+
+   .d1name>p {
+       color: gray;
+   }
+
+   .d2 {
+
+       background-color: black;
+       border-radius: 40px;
+       width: 56px;
+       height: 56px;
+       padding: 10px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       gap: 16px;
+
+   }
+
+   .d2>div {
+       color: green;
+       font-size: 17px;
+       font-weight: 700;
+       line-height: 20.72px;
+       padding: 17px;
+   }
+
+   .d3 {
+
+       background-color: black;
+       border-radius: 40px;
+       width: 56px;
+       height: 56px;
+       padding: 10px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       gap: 16px;
+
+   }
+
+   .d3>div {
+       color: green;
+       font-size: 17px;
+       font-weight: 700;
+       line-height: 20.72px;
+       padding: 17px;
+   }
+
+   .d4 {
+
+       background-color: black;
+       border-radius: 40px;
+       width: 56px;
+       height: 56px;
+       padding: 10px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       gap: 16px;
+   }
+
+   .d4>div {
+       color: green;
+       font-size: 17px;
+       font-weight: 700;
+       line-height: 20.72px;
+       padding: 17px;
+   }
+
+   .d5 {
+
+       background-color: black;
+       border-radius: 40px;
+       width: 56px;
+       height: 56px;
+       padding: 10px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       gap: 16px;
+   }
+
+   .d5>div {
+       color: green;
+       font-size: 17px;
+       font-weight: 700;
+       line-height: 20.72px;
+       padding: 17px;
+   }
+
+   .d6 {
+       background-color: black;
+       border-radius: 40px;
+       width: 56px;
+       height: 56px;
+       padding: 10px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       gap: 16px;
+   }
+
+   .d6>div {
+       color: green;
+       font-size: 17px;
+       font-weight: 700;
+       line-height: 20.72px;
+       padding: 17px;
+   }
+
+   .price-container {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       text-align: center;
+   }
+
+   .price {
+       display: flex;
+       flex-direction: column;
+       font-family: Montserrat;
+       font-weight: 700;
+   }
+
+   .price>h1 {
+       font-size: 48px;
+   }
+
+   .price>h2 {
+       height: 29px;
+       color: gray;
+       font-size: 24px;
+   }
+
+   .border {
+       display: flex;
+       justify-content: space-between;
+       gap: 20px;
+   }
+
+   .box1 {
+       border-radius: 24px;
+       background-color: lightgray;
+       width: 285px;
+       height: 370px;
+       padding: 40px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: flex-start;
+
+
+
+   }
+
+   .box2 {
+       border-radius: 24px;
+       background-color: lightgray;
+       width: 285px;
+       height: 370px;
+       padding: 40px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: flex-start;
+   }
+
+   .box-text {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       font-size: 20px;
+       font-weight: 700;
+       line-height: 24.39px;
+   }
+
+   .box-text>ul {
+       font-size: 24px;
+       font-weight: 700;
+       line-height: 29.26px;
+   }
+
+   .litext1 {
+       display: flex;
+       flex-direction: column;
+       text-align: left;
+       color: gray;
+       font-size: 20px;
+       line-height: 24.38px;
+       padding: 40px;
+   }
+
+   .box-text2>ul {
+       font-size: 24px;
+       font-weight: 700;
+       line-height: 29.26px;
+   }
+
+   .box1>div {
+       display: flex;
+       justify-content: flex-end;
+       align-items: flex-end;
+       text-align: left;
+   }
+
+   .litext2 {
+       display: flex;
+       flex-direction: column;
+       text-align: left;
+       color: gray;
+       font-size: 20px;
+       line-height: 24.38px;
+       padding: 40px;
+   }
+
+   .footer {
+       width: 1440px;
+   }
+
+   .ready {
+       width: 1440px;
+       height: 393px;
+       background-color: #171717;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       padding: 150px, 0px, 150px, 0px;
+       font-size: 32px;
+       font-weight: 700;
+
+   }
+
+   .ready>p {
+       color: white;
+   }
+
+   .ready>div {
+       background-color: green;
+       color: white;
+       width: 130px;
+       height: 44px;
+       border-radius: 4px;
+       font-size: 16px;
+       font-weight: 700;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+   }
+
+   .social {
+       width: 1440px;
+       height: 228px;
+       background-color: #101010;
+       border: 1px, 0ppx, 0px, 0px;
+       padding: 80px, 120px, 80px, 120px, ;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .logo {
+       width: 1200px;
+       height: 68px;
+       display: flex;
+       justify-content: space-between;
+
+   }
+
+   .logo>p {
+       color: white;
+       font-size: 28px;
+       font-weight: 700;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .suwaguud {
+       width: 381px;
+       height: 44px;
+       display: flex;
+       justify-content: space-between;
+       gap: 20px;
+   }
+
+   .fb {
+       width: 167px;
+       height: 44px;
+       padding: 10px, 20px, 10px, 20px, ;
+       border-radius: 4px;
+       display: flex;
+       align-items: center;
+       gap: 10px;
+       background-color: #303030;
+
+   }
+
+   .insta {
+       width: 167px;
+       height: 44px;
+       padding: 10px, 20px, 10px, 20px, ;
+       border-radius: 4px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       gap: 10px;
+       background-color: #303030;
+   }
